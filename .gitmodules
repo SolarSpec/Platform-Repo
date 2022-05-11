@@ -1,0 +1,36 @@
+[submodule "H2GUI"]
+	path = H2GUI
+	url = https://github.com/SolarSpec/H2GUI.git
+[submodule "SpectraBuilder"]
+	path = SpectraBuilder
+	url = https://github.com/SolarSpec/SpectraBuilder
+[submodule "OnePanelFig"]
+	path = OnePanelFig
+	url = https://github.com/SolarSpec/OnePanelFig
+[submodule "PIASgui"]
+	path = PIASgui
+	url = https://github.com/SolarSpec/PIASgui
+[submodule "DLSmultiAverage"]
+	path = DLSmultiAverage
+	url = https://github.com/SolarSpec/DLSmultiAverage
+[submodule "XPSfitting"]
+	path = XPSfitting
+	url = https://github.com/SolarSpec/XPSfitting
+[submodule "XRDfitting"]
+	path = XRDfitting
+	url = https://github.com/SolarSpec/XRDfitting
+[submodule "OceanOptics"]
+	path = OceanOptics
+	url = https://github.com/SolarSpec/OceanOptics
+[submodule "TAMviewer"]
+	path = TAMviewer
+	url = https://github.com/SolarSpec/TAMviewer
+[submodule "Electrochemistry"]
+	path = Electrochemistry
+	url = https://github.com/SolarSpec/Electrochemistry
+[submodule "FTIR"]
+	path = FTIR
+	url = https://github.com/SolarSpec/FTIR
+[submodule "Photodegradation"]
+	path = Photodegradation
+	url = https://github.com/SolarSpec/Photodegradation
