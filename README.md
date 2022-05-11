@@ -1,5 +1,5 @@
 # Platform-Repo
-A repository to act as a platform to house all SolarSpec repositories. Intended for ease of use for multiple repositories; an all at once up-to-date git pull command.
+A repository to act as a platform to house all SolarSpec repositories. Intended for ease of use
 
 Use to view the status of all repositories:
 *git status*
