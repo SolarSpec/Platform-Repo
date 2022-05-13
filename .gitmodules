@@ -34,3 +34,6 @@
 [submodule "Photodegradation"]
 	path = Photodegradation
 	url = https://github.com/SolarSpec/Photodegradation
+[submodule "TaucPlotGUI"]
+	path = TaucPlotGUI
+	url = https://github.com/SolarSpec/TaucPlotGUI
