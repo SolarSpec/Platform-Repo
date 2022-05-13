@@ -137,7 +137,7 @@ git submodule foreach git pull --rebase --autostash origin branch_name
 
 
 <!-- ROADMAP -->
-## Roadmap - GUIS/Repositories
+## Roadmap - GUIs/Repositories
 
 - [X] Spectrabuilder
   - [X] Log-Log Fitting 
