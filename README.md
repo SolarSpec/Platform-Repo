@@ -17,7 +17,7 @@
     <img src="PlatformRepo_resources/logo.png" alt="SolarSpec" width="160" height="120">
   </a>
 
-<h3 align="center">Platform to house all SolarSpec Repositories</h3>
+<h3 align="center">Platform to House all SolarSpec Repositories</h3>
 
   <p align="center">
     Platform for all Code
