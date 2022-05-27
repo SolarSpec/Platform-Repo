@@ -98,13 +98,17 @@ Click on the "Add-Ons" dropdown menu of your MATLAB Home screen. Then click on "
    ```sh
    git clone --recurse-submodules https://github.com/SolarSpec/Platform-Repo.git
    ```
-2. Specify which or install each application 
+2. Ensure you are in the main branch for each repository and not in detached HEAD state
+   ```sh
+   git submodule foreach --recursive git checkout main
+   ```
+4. Now enter the desired repository and install the application to MATLAB
    ```
    Click on the .mlappinstall file in your repository to open and install in MATLAB
    ```
-3. Browse the APPS header
+3. Browse the APPS header and click on the drop down.
    ```
-   You will find the recently installed application and can add it to your favourites
+   You will find the recently installed application under 'MY APPS' and can add it to your favourites
    ```
 
 <p align="right">(<a href="#top">back to top</a>)</p>
@@ -114,7 +118,7 @@ Click on the "Add-Ons" dropdown menu of your MATLAB Home screen. Then click on "
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-To view the status of all repositories:
+To view the status of the platform
 ```sh
 git status
 ```
@@ -123,13 +127,14 @@ and to view the status of each repository:
 git submodule foreach git status
 ```
 
+
 Pull changes for every submodule:
 ```sh
 git submodule foreach git pull origin main
 ```
-or in case you have edited the files and need to stash changes:
+or in case you have edited files and need to stash changes:
 ```sh
-git submodule foreach git pull --rebase --autostash origin branch_name
+git submodule foreach git pull --rebase --autostash origin main
 ```
 
 <p align="right">(<a href="#top">back to top</a>)</p>
@@ -139,16 +144,16 @@ git submodule foreach git pull --rebase --autostash origin branch_name
 <!-- ROADMAP -->
 ## Roadmap - GUIs/Repositories
 
-- [X] Spectrabuilder
-  - [X] Log-Log Fitting 
-- [X] OnePanelFig
-- [X] PIASgui
 - [X] DLSmultiAverage
-- [X] H2GUI
 - [X] Electrochemistry
 - [X] FTIR
+- [X] H2GUI
 - [X] OceanOptics
+- [X] OnePanelFig
 - [X] Photodegradation
+- [X] PIASgui
+- [X] Spectrabuilder
+  - [X] Log-Log Fitting 
 - [X] TAMviewer
 - [X] TaucPlotGUI
 - [X] XPSfitting
