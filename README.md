@@ -96,7 +96,7 @@ Click on the "Add-Ons" dropdown menu of your MATLAB Home screen. Then click on "
 
 1. Clone the repo with each sub repository to your PC
    ```sh
-   git clone --recurse-submodules https://github.com/SolarSpec/Platform-Repo.git
+   git clone --recurse-submodules https://github.com/SolarSpec/Platform-Repo.git && cd "$(basename "$_" .git)"
    ```
 2. Ensure you are in the main branch for each repository and not in detached HEAD state
    ```sh
