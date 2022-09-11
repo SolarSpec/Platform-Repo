@@ -40,3 +40,6 @@
 [submodule "LoadTDMSfunctions"]
 	path = LoadTDMSfunctions
 	url = https://github.com/SolarSpec/LoadTDMSfunctions
+[submodule "MultiPanelFig"]
+	path = MultiPanelFig
+	url = https://github.com/SolarSpec/MultiPanelFig.git
