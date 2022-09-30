@@ -43,3 +43,6 @@
 [submodule "MultiPanelFig"]
 	path = MultiPanelFig
 	url = https://github.com/SolarSpec/MultiPanelFig.git
+[submodule "HPLCgui"]
+	path = HPLCgui
+	url = https://github.com/SolarSpec/HPLCgui
