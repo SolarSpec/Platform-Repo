@@ -37,9 +37,9 @@
 [submodule "TaucPlotGUI"]
 	path = TaucPlotGUI
 	url = https://github.com/SolarSpec/TaucPlotGUI
-[submodule "LoadTDMSfunctions"]
-	path = LoadTDMSfunctions
-	url = https://github.com/SolarSpec/LoadTDMSfunctions
+[submodule "ScriptsAndFunctions"]
+	path = ScriptsAndFunctions
+	url = https://github.com/SolarSpec/ScriptsAndFunctions
 [submodule "MultiPanelFig"]
 	path = MultiPanelFig
 	url = https://github.com/SolarSpec/MultiPanelFig.git
