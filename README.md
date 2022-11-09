@@ -149,6 +149,10 @@ Anytime after first:
 ```sh
 git submodule update --recursive --remote
 ```
+Or if that command throws an error:
+```sh
+git submodule update --remote --merge
+```
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
