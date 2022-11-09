@@ -43,3 +43,6 @@
 [submodule "HPLCgui"]
 	path = HPLCgui
 	url = https://github.com/SolarSpec/HPLCgui
+[submodule "ScriptsAndFunctions"]
+	path = ScriptsAndFunctions
+	url = https://github.com/SolarSpec/ScriptsAndFunctions
