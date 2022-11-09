@@ -128,13 +128,26 @@ git submodule foreach git status
 ```
 
 
+
 Pull changes for every submodule:
 ```sh
 git submodule foreach git pull origin main
 ```
-or in case you have edited files and need to stash changes:
+or in case you have edited files and need to stash changes (devs only):
 ```sh
 git submodule foreach git pull --rebase --autostash origin main
+```
+
+</br>
+
+### Updating with new/modified repository
+On first time checking out repo:
+```sh
+git submodule update --init --recursive
+```
+Anytime after first:
+```sh
+git submodule update --recursive --remote
 ```
 
 <p align="right">(<a href="#top">back to top</a>)</p>
@@ -148,10 +161,13 @@ git submodule foreach git pull --rebase --autostash origin main
 - [X] Electrochemistry
 - [X] FTIR
 - [X] H2GUI
+- [X] HPLCgui
+- [X] MultiPanelFig
 - [X] OceanOptics
 - [X] OnePanelFig
 - [X] Photodegradation
 - [X] PIASgui
+- [X] ScriptsAndFunctions
 - [X] Spectrabuilder
   - [X] Log-Log Fitting 
 - [X] TAMviewer
