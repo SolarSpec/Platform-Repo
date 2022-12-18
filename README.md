@@ -118,6 +118,8 @@ Click on the "Add-Ons" dropdown menu of your MATLAB Home screen. Then click on "
 <!-- USAGE EXAMPLES -->
 ## Usage
 
+### General Commands
+
 To view the status of the platform
 ```sh
 git status
@@ -140,6 +142,15 @@ git submodule foreach git pull --rebase --autostash origin main
 
 </br>
 
+### Reverting any changes to a repository
+First, open the submodule repository that has changes to commit and open a bash terminal.
+Then type the following to restore any modified content of the repository:
+```sh
+git restore .
+```
+
+</br>
+
 ### Updating with new/modified repository
 On first time checking out repo:
 ```sh
@@ -153,6 +164,7 @@ Or if that command throws an error:
 ```sh
 git submodule update --remote --merge
 ```
+
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
