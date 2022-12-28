@@ -46,3 +46,6 @@
 [submodule "ScriptsAndFunctions"]
 	path = ScriptsAndFunctions
 	url = https://github.com/SolarSpec/ScriptsAndFunctions
+[submodule "GlobalFittingApp"]
+	path = GlobalFittingApp
+	url = https://github.com/SolarSpec/GlobalFittingApp.git
