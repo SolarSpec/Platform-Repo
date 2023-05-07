@@ -49,3 +49,6 @@
 [submodule "GlobalFittingApp"]
 	path = GlobalFittingApp
 	url = https://github.com/SolarSpec/GlobalFittingApp.git
+[submodule "SpectralDeconvolution"]
+	path = SpectralDeconvolution
+	url = https://github.com/SolarSpec/SpectralDeconvolution
