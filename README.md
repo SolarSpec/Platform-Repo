@@ -188,6 +188,7 @@ git submodule update --remote --merge
   - [X] Log-Log Fitting 
 - [X] TAMviewer
 - [X] TaucPlotGUI
+- [X] TRPL
 - [X] XPSfitting
 - [X] XRDfitting
 

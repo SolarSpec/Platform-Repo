@@ -52,3 +52,6 @@
 [submodule "SpectralDeconvolution"]
 	path = SpectralDeconvolution
 	url = https://github.com/SolarSpec/SpectralDeconvolution
+[submodule "TRPL"]
+	path = TRPL
+	url = https://github.com/SolarSpec/TRPL.git
